@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 26px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 15px auto 20px;
+    padding: 10px;
+    border: 2px dashed #aaa;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+    border-color: #6a11cb;
+}
+
+button {
+    background: #6a11cb;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #5011a3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+}
+
+.preview-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
